@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path as pth
-import python.src.classes.general as gen
+import src.classes.general as gen
 
 def getMapFile(corpus):
     mapFolder = r'C:\Users\kkb19103\Desktop\DocMaps'
@@ -9,8 +9,8 @@ def getMapFile(corpus):
     corpus = gen.getCorpus(corpus[0])
     # mapFile = '%s\%sDocMap.txt' % (mapFolder, corpus)
     # mapFile = '~/python/DocMaps/%sDocMap.txt' % corpus
-    mapFile = mapFolder + '\%sDocMap.txt' % corpus
-    # mapFile = gen.getLinuxPath(mapFile)
+    mapFile = '%s\%sDocMap.txt' % (mapFolder , corpus)
+    mapFile = gen.getLinuxPath(mapFile)
     return mapFile
 
 

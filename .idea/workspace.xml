@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb5517e-49b9-4bb1-9f8c-59cb53a04393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python/src/DummySrc/pyserinitest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/CORE17Iterator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/CORE17Statistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/concatFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/extractLines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/extractRFields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/generateCSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/generateRetFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/measureRetrievalExposure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/plotRelevanceExposure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/2nd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/csvPlotterFairness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/collectionParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/InformationRetrieval.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InformationRetrieval.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/DummySrc/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/DummySrc/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/classes/CWL.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/CWL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/classes/bash.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/bash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/classes/clsRetrievabilityCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/clsRetrievabilityCalculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/classes/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/general.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/classes/trec.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/trec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/WAPOScripts/WAPOIterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/WAPOScripts/processWAPOKicker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/XMLTopicsCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/XMLTopicsCreator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/renameExperiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/renameExperiments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterGeneral.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterGeneral.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterMultipleIndexes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterRM3BaseIteration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterRM3FirstStage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterRM3SecondStage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/PerformanceReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/readers/PerformanceReader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/csvExtractTopMAPValues.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/instantPerformanceReaderDirect.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/readers/instantPerformanceReaderDirect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/readSingleResFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/readers/readSingleResFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/checkers/resChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/checkers/resChecker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/docidXMLCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/docidXMLCreator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/simpleTasks/simpleTasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/simpleTasks/simpleTasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/extractRFields.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/extractRFields.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../temp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -107,13 +68,15 @@
       <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\plotters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\plotters\OldPlotter" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\revertedIndex\lucene\simpleTasks" />
       <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\AdditionalAnalysis" />
       <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2" />
       <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\dedicatedProcess" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.extractRFields">
-    <configuration name="concatFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dictuseRevertedIndex">
+    <configuration name="2nd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/concatFiles.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\plotters\OldPlotter\2nd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extractRFields" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="csvPlotter2ndExpansion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,12 +106,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/extractRFields.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/csvPlotter2ndExpansion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generateCSV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="csvPlotter2ndExpansion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,12 +128,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\AdditionalAnalysis\generateCSV.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\plotters\csvPlotter2ndExpansion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="measureRetrievalExposure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="csvPlotterRevertedIndex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,12 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper3/plotters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/measureRetrievalExposure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/paper3/plotters/csvPlotterRevertedIndex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dictuseRevertedIndex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/DummySrc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/DummySrc/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,20 +186,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.generateCSV" />
-      <item itemvalue="Python.measureRetrievalExposure" />
-      <item itemvalue="Python.extractRFields" />
-      <item itemvalue="Python.concatFiles" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.extractRFields" />
-        <item itemvalue="Python.concatFiles" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.measureRetrievalExposure" />
-        <item itemvalue="Python.generateCSV" />
+        <item itemvalue="Python.dictuseRevertedIndex" />
+        <item itemvalue="Python.csvPlotter2ndExpansion (1)" />
+        <item itemvalue="Python.csvPlotterRevertedIndex" />
+        <item itemvalue="Python.csvPlotter2ndExpansion" />
+        <item itemvalue="Python.2nd" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +234,11 @@
       <workItem from="1618931709246" duration="2843000" />
       <workItem from="1618942219610" duration="12434000" />
       <workItem from="1619017529250" duration="131651000" />
-      <workItem from="1620272805236" duration="103120000" />
+      <workItem from="1620272805236" duration="167777000" />
+      <workItem from="1623336205363" duration="8973000" />
+      <workItem from="1625955145845" duration="35119000" />
+      <workItem from="1626277526379" duration="15690000" />
+      <workItem from="1626397257096" duration="5014000" />
     </task>
     <servers />
   </component>
@@ -286,82 +246,70 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Notifications" timestamp="1615028556712">
+    <state x="2" y="92" width="1089" height="533" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626318714732">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="233" y="0" key="#Notifications/0.0.1280.639@0.0.1280.639" timestamp="1615028556712" />
-    <state x="2" y="92" width="1089" height="533" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620435658347">
-      <screen x="0" y="0" width="1280" height="639" />
-    </state>
-    <state x="2" y="92" width="1089" height="533" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639@0.0.1280.639" timestamp="1620435658347" />
-    <state x="368" y="0" key="#dictuseRevertedIndex" timestamp="1617694745998">
-      <screen x="0" y="0" width="1280" height="639" />
-    </state>
-    <state x="368" y="0" key="#dictuseRevertedIndex/0.0.1280.639@0.0.1280.639" timestamp="1617694745998" />
-    <state x="0" y="73" key="#xdebugger.XInspectDialog" timestamp="1615420595307">
-      <screen x="0" y="0" width="1280" height="639" />
-    </state>
-    <state x="0" y="73" key="#xdebugger.XInspectDialog/0.0.1280.639@0.0.1280.639" timestamp="1615420595307" />
+    <state x="2" y="92" width="1089" height="533" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639@0.0.1280.639" timestamp="1626318714732" />
     <state x="109" y="29" width="1025" height="581" key="#xdebugger.evaluate" timestamp="1620307296460">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
     <state x="109" y="29" width="1025" height="581" key="#xdebugger.evaluate/0.0.1280.639@0.0.1280.639" timestamp="1620307296460" />
-    <state width="1278" height="206" key="DebuggerActiveHint" timestamp="1620639821267">
+    <state width="1278" height="81" key="DebuggerActiveHint" timestamp="1626305351155">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1278" height="206" key="DebuggerActiveHint/0.0.1280.639@0.0.1280.639" timestamp="1620639821267" />
-    <state x="183" y="101" width="647" height="483" key="FileChooserDialogImpl" timestamp="1620082978965">
+    <state width="1278" height="81" key="DebuggerActiveHint/0.0.1280.639@0.0.1280.639" timestamp="1626305351155" />
+    <state x="64" y="77" width="647" height="483" key="FileChooserDialogImpl" timestamp="1626318751165">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="183" y="101" width="647" height="483" key="FileChooserDialogImpl/0.0.1280.639@0.0.1280.639" timestamp="1620082978965" />
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1620805000636">
+    <state x="64" y="77" width="647" height="483" key="FileChooserDialogImpl/0.0.1280.639@0.0.1280.639" timestamp="1626318751165" />
+    <state width="1237" height="215" key="GridCell.Tab.0.bottom" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
-    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1620805000636">
+    <state width="1237" height="215" key="GridCell.Tab.0.bottom/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state width="1237" height="215" key="GridCell.Tab.0.center" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
-    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1620805000636">
+    <state width="1237" height="215" key="GridCell.Tab.0.center/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state width="1237" height="215" key="GridCell.Tab.0.left" timestamp="1626395137221">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
-    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1620805000636">
+    <state width="1237" height="215" key="GridCell.Tab.0.left/0.0.1280.639@0.0.1280.639" timestamp="1626395137221" />
+    <state width="1237" height="215" key="GridCell.Tab.0.right" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
-    <state width="1237" height="153" key="GridCell.Tab.1.bottom" timestamp="1620803149501">
+    <state width="1237" height="215" key="GridCell.Tab.0.right/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state width="1237" height="215" key="GridCell.Tab.1.bottom" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.1.bottom/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
-    <state width="1237" height="153" key="GridCell.Tab.1.center" timestamp="1620803149501">
+    <state width="1237" height="215" key="GridCell.Tab.1.bottom/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state width="1237" height="215" key="GridCell.Tab.1.center" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.1.center/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
-    <state width="1237" height="153" key="GridCell.Tab.1.left" timestamp="1620803149501">
+    <state width="1237" height="215" key="GridCell.Tab.1.center/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state width="1237" height="215" key="GridCell.Tab.1.left" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.1.left/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
-    <state width="1237" height="153" key="GridCell.Tab.1.right" timestamp="1620803149501">
+    <state width="1237" height="215" key="GridCell.Tab.1.left/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state width="1237" height="215" key="GridCell.Tab.1.right" timestamp="1626395137222">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.1.right/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.bottom" timestamp="1620803149502">
+    <state width="1237" height="215" key="GridCell.Tab.1.right/0.0.1280.639@0.0.1280.639" timestamp="1626395137222" />
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.bottom" timestamp="1625956337297">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.bottom/0.0.1280.639@0.0.1280.639" timestamp="1620803149502" />
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.center" timestamp="1620803149501">
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.bottom/0.0.1280.639@0.0.1280.639" timestamp="1625956337297" />
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.center" timestamp="1625956337297">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.center/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.left" timestamp="1620803149501">
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.center/0.0.1280.639@0.0.1280.639" timestamp="1625956337297" />
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.left" timestamp="1625956337297">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.left/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.right" timestamp="1620803149501">
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.left/0.0.1280.639@0.0.1280.639" timestamp="1625956337297" />
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.right" timestamp="1625956337297">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.right/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state x="12" y="425" width="1237" height="325" key="GridCell.Tab.2.right/0.0.1280.639@0.0.1280.639" timestamp="1625956337297" />
     <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.bottom" timestamp="1619144062439">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
@@ -394,26 +342,18 @@
       <screen x="0" y="0" width="1280" height="639" />
     </state>
     <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.right/0.0.1280.639@0.0.1280.639" timestamp="1619144062430" />
-    <state x="470" y="56" key="PyMappingSimpleResolveDialog" timestamp="1615002607945">
+    <state x="138" y="0" key="SettingsEditor" timestamp="1626403650118">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="470" y="56" key="PyMappingSimpleResolveDialog/0.0.1280.639@0.0.1280.639" timestamp="1615002607945" />
-    <state x="138" y="0" key="SettingsEditor" timestamp="1620370514756">
+    <state x="138" y="0" key="SettingsEditor/0.0.1280.639@0.0.1280.639" timestamp="1626403650118" />
+    <state width="864" height="127" key="XDebugger.FullValuePopup" timestamp="1626271389251">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="138" y="0" key="SettingsEditor/0.0.1280.639@0.0.1280.639" timestamp="1620370514756" />
-    <state width="864" height="372" key="XDebugger.FullValuePopup" timestamp="1620438330480">
+    <state width="864" height="127" key="XDebugger.FullValuePopup/0.0.1280.639@0.0.1280.639" timestamp="1626271389251" />
+    <state x="349" y="148" key="com.intellij.ide.util.TipDialog" timestamp="1626397258326">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="864" height="372" key="XDebugger.FullValuePopup/0.0.1280.639@0.0.1280.639" timestamp="1620438330480" />
-    <state x="349" y="148" key="com.intellij.ide.util.TipDialog" timestamp="1620272805584">
-      <screen x="0" y="0" width="1280" height="639" />
-    </state>
-    <state x="349" y="148" key="com.intellij.ide.util.TipDialog/0.0.1280.639@0.0.1280.639" timestamp="1620272805584" />
-    <state x="193" y="53" width="958" height="532" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1615003043759">
-      <screen x="0" y="0" width="1280" height="639" />
-    </state>
-    <state x="193" y="53" width="958" height="532" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1280.639@0.0.1280.639" timestamp="1615003043759" />
+    <state x="349" y="148" key="com.intellij.ide.util.TipDialog/0.0.1280.639@0.0.1280.639" timestamp="1626397258326" />
     <state x="12" y="425" width="282" height="236" key="dock-window-1" timestamp="1619017793314">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
@@ -726,10 +666,6 @@
       <screen x="0" y="0" width="1280" height="639" />
     </state>
     <state x="12" y="425" width="282" height="236" key="dock-window-9/0.0.1280.639@0.0.1280.639" timestamp="1619020560866" />
-    <state x="310" y="115" width="672" height="678" key="search.everywhere.popup" timestamp="1612964208771">
-      <screen x="0" y="0" width="1280" height="639" />
-    </state>
-    <state x="310" y="115" width="672" height="678" key="search.everywhere.popup/0.0.1280.639@0.0.1280.639" timestamp="1612964208771" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -790,19 +726,39 @@
           <option name="timeStamp" value="447" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/CORE17Iterator.py</url>
-          <line>128</line>
-          <option name="timeStamp" value="502" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/measureRetrievalExposure.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="528" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/python/src/DummySrc/test.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="533" />
+          <line>14</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/readResFile.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/classes/trec.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper3/plotters/csvPlotterRevertedIndex.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterGeneral.py</url>
+          <line>447</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/csvPlotter2ndExpansion.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py</url>
+          <line>358</line>
+          <option name="timeStamp" value="489" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -810,45 +766,55 @@
       <configuration name="PythonConfigurationType">
         <watch expression="g.__cls_storage" />
         <watch expression="bashCmd" language="Python" />
+        <watch expression="df" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InformationRetrieval$generateFairnessFile.coverage" NAME="generateFairnessFile Coverage Results" MODIFIED="1621073860809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3_Axiom.coverage" NAME="csvPlotterRM3&amp;Axiom Coverage Results" MODIFIED="1618843055896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$extractLines.coverage" NAME="extractLines Coverage Results" MODIFIED="1615335079414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$generateRetFile.coverage" NAME="generateRetFile Coverage Results" MODIFIED="1620080969654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$CORE17Iterator.coverage" NAME="CORE17Iterator Coverage Results" MODIFIED="1620533127788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$CORE17Iterator.coverage" NAME="CORE17Iterator Coverage Results" MODIFIED="1621069596131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRevertedIndex__1_.coverage" NAME="csvPlotterRevertedIndex (1) Coverage Results" MODIFIED="1619670335885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper3/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvAnalyzeDocumentBucketLength.coverage" NAME="csvAnalyzeDocumentBucketLength Coverage Results" MODIFIED="1619108175895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters/paper2" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$compare.coverage" NAME="compare Coverage Results" MODIFIED="1617137333092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotter2ndExpansion__1_.coverage" NAME="csvPlotter2ndExpansion (1) Coverage Results" MODIFIED="1626377310399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvAnalyzeDocumentBucketLength__1_.coverage" NAME="csvAnalyzeDocumentBucketLength (1) Coverage Results" MODIFIED="1619201521974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$processWAPOKicker.coverage" NAME="processWAPOKicker Coverage Results" MODIFIED="1619144478927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/WAPOScripts" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$AQUAINTIterator.coverage" NAME="AQUAINTIterator Coverage Results" MODIFIED="1620435018122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/Collection Iterator" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3SecondStage.coverage" NAME="csvPlotterRM3SecondStage Coverage Results" MODIFIED="1619931854899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$AQUAINTIterator.coverage" NAME="AQUAINTIterator Coverage Results" MODIFIED="1620967608844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$RelevanceExposure.coverage" NAME="RelevanceExposure Coverage Results" MODIFIED="1620082945336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$measureRetrievalExposure.coverage" NAME="measureRetrievalExposure Coverage Results" MODIFIED="1620640327009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$2nd.coverage" NAME="2nd Coverage Results" MODIFIED="1619956386642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3SecondStage.coverage" NAME="csvPlotterRM3SecondStage Coverage Results" MODIFIED="1626280042817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$2nd.coverage" NAME="2nd Coverage Results" MODIFIED="1626301069832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvExtractTopMAPValues.coverage" NAME="csvExtractTopMAPValues Coverage Results" MODIFIED="1617848584980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/readers" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$readSingleResFile.coverage" NAME="readSingleResFile Coverage Results" MODIFIED="1618352937807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/readers" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRevertedIndex.coverage" NAME="csvPlotterRevertedIndex Coverage Results" MODIFIED="1619060130788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters/paper3" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRevertedIndex.coverage" NAME="csvPlotterRevertedIndex Coverage Results" MODIFIED="1626318557585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper3/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterMultipleIndexes.coverage" NAME="csvPlotterMultipleIndexes Coverage Results" MODIFIED="1612944061194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3BaseIteration.coverage" NAME="csvPlotterRM3BaseIteration Coverage Results" MODIFIED="1612964343041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters/Old" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$test.coverage" NAME="test Coverage Results" MODIFIED="1620722167148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/DummySrc" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$test.coverage" NAME="test Coverage Results" MODIFIED="1623945615584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/DummySrc" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3FirstStage.coverage" NAME="csvPlotterRM3FirstStage Coverage Results" MODIFIED="1619931850277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$extractRFields.coverage" NAME="extractRFields Coverage Results" MODIFIED="1620805000620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$extractRFields.coverage" NAME="extractRFields Coverage Results" MODIFIED="1620829013773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$readDf.coverage" NAME="readDf Coverage Results" MODIFIED="1623349899282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$docidXMLCreator.coverage" NAME="docidXMLCreator Coverage Results" MODIFIED="1618943318148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3_AxiomPaperVersion.coverage" NAME="csvPlotterRM3&amp;AxiomPaperVersion Coverage Results" MODIFIED="1620292879780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3_AxiomPaperVersion.coverage" NAME="csvPlotterRM3&amp;AxiomPaperVersion Coverage Results" MODIFIED="1626279290633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$RM3ExtractTopMAPValues.coverage" NAME="RM3ExtractTopMAPValues Coverage Results" MODIFIED="1618853403541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/ExtractTopValues" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$RelevanceExposure__1_.coverage" NAME="RelevanceExposure (1) Coverage Results" MODIFIED="1620005191397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$AQUAINTIterator__1_.coverage" NAME="AQUAINTIterator (1) Coverage Results" MODIFIED="1620445408930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotter2nd.coverage" NAME="csvPlotter2nd Coverage Results" MODIFIED="1626306357663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$renameExperiments.coverage" NAME="renameExperiments Coverage Results" MODIFIED="1618221762472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$simpleTasks.coverage" NAME="simpleTasks Coverage Results" MODIFIED="1620273026010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/simpleTasks" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$dictuseRevertedIndex.coverage" NAME="dictuseRevertedIndex Coverage Results" MODIFIED="1619058728710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$run_measurePerformance.coverage" NAME="run&amp;measurePerformance Coverage Results" MODIFIED="1623336263591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1620624038607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$dictuseRevertedIndex.coverage" NAME="dictuseRevertedIndex Coverage Results" MODIFIED="1626377337344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$collectionParser.coverage" NAME="collectionParser Coverage Results" MODIFIED="1615433511766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$readResFile.coverage" NAME="readResFile Coverage Results" MODIFIED="1626113353797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$generateFairnessFile__1_.coverage" NAME="generateFairnessFile (1) Coverage Results" MODIFIED="1621046958401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$ptest.coverage" NAME="ptest Coverage Results" MODIFIED="1616160334342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterAdditionalAnalysis.coverage" NAME="csvPlotterAdditionalAnalysis Coverage Results" MODIFIED="1619733052123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
     <SUITE FILE_PATH="coverage/InformationRetrieval$WAPOIterator.coverage" NAME="WAPOIterator Coverage Results" MODIFIED="1620365537474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/WAPOScripts" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$concatFiles.coverage" NAME="concatFiles Coverage Results" MODIFIED="1620799151131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$concatFiles.coverage" NAME="concatFiles Coverage Results" MODIFIED="1621135356790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$generateCSV.coverage" NAME="generateCSV Coverage Results" MODIFIED="1621072174259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$concatFiles__1_.coverage" NAME="concatFiles (1) Coverage Results" MODIFIED="1620974529127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
   </component>
 </project>

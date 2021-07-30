@@ -61,9 +61,6 @@ def process(corpus,exp):
     df = getDocLength(corpus)
     # Add r0 wirh retrievability values b = 0
     dfr = getRetrievabilityResults(corpus , exp , 0 ,docs)
-    # df1 = df.head(10)
-    # df2 = dfr.head(10)
-    # df2['docid'] = df2['docid'].astype(int)
     df = mergeDf(df,dfr)
     # Add r0.5 wirh retrievability values b = 0.5
     dfr = getRetrievabilityResults(corpus, exp, 0.5 , docs)

@@ -1,11 +1,12 @@
 # !/usr/bin/env python
 import subprocess
 import pandas as pd
+
 import io
 
 def executeBash(resFile,gainFile):
     # python3 ~/cwlEval/cwl-eval cwl/tests/qrel_file cwl/tests/result_file -m ~/cwlEval/MyMetrics_file
-    cmd = 'python3.9 ~/cwlEval/cwl-eval %s %s -m ~/cwlEval/MyMetrics_file' % (gainFile,resFile)
+    cmd = 'python3.6 ~/cwl/cwl-eval %s %s -m ~/cwl/MyMetrics_file' % (gainFile,resFile)
   #  bashCmd = 'bash -c \'%s\' ' % cmd
     bashCmd = 'bash -c \"%s\"' % cmd
     result = subprocess.getoutput(bashCmd)

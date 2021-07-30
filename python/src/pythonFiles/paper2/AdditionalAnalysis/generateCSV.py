@@ -19,8 +19,9 @@ def getRelevantDf (corpus):
     corpus = gen.getCorpus(corpus[0])
     file = folder + r'\%s\%s.qrel' % (corpus,corpus)
     df = pd.read_csv(file,sep=' ',names='d1 d2 docid rel'.split())
-    df = df.groupby('docid',as_index=False).sum('rel')
-    df = df['docid rel'.split()]
+    df = df.groupby('docid',as_index=False).agg({'rel':['sum','count']})
+    df.columns = df.columns.droplevel(0)
+    df.rename(columns={'':'docid' , 'sum':'rel_sum' , 'count':'rel_count'} , inplace=True)
     return df
 
 def mergeDf (df1 , df2):
@@ -36,9 +37,15 @@ def process(corpus):
     key = 'docid'
     file = getMainFile(corpus)
     df = pd.read_csv(file, low_memory=False)
+    if (corpus[0].upper() == 'C'):
+        df[key] = df[key].astype('int64')
+
     dfTemp = getRelevantDf(corpus)
+    # print(dfTemp.dtypes)
+    # return
     df = df.merge(dfTemp, 'left', key)
-    df['rel'].fillna(0, inplace=True)
+    df['rel_sum'].fillna(0, inplace=True)
+    df['rel_count'].fillna(0, inplace=True)
     dfTemp = getDocLength(corpus)
     df = df.merge(dfTemp, 'left', key)
     df['length'].fillna(0, inplace=True)
@@ -46,7 +53,8 @@ def process(corpus):
     print('Done')
 
 def main():
-    for c in 'co wa'.split():
+    # Attach Relevance and DocLength to Corpus Main File
+    for c in 'co'.split():
         process(c)
 
 if __name__ == '__main__':

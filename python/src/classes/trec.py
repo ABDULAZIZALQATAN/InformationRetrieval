@@ -2,7 +2,7 @@ import subprocess
 
 def executeBash(resFile,gainFile):
     measures = '-m map -m bpref -m P.10 -m ndcg'
-    cmd = '~/trec_eval/trec_eval %s %s %s' % (measures ,gainFile,resFile)
+    cmd = '~/anserini/trec_eval/trec_eval %s %s %s' % (measures ,gainFile,resFile)
 # ~/Anserini/eval/trec_eval.9.0.4/trec_eval -m map -m P.30 gainFile resFile
     bashCmd = 'bash -c \"%s\" ' % cmd
     result = subprocess.getoutput(bashCmd)

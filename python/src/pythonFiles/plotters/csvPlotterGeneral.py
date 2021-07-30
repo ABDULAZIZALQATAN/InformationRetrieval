@@ -484,7 +484,7 @@ def initializeGlobals(readSource, exNum ,outPath):
     if (readSource == 'W'):
         switcher = {
             1:'1st Experiment - Bigrams Influence',
-            2:'2nd Experiment - RM3',
+            2:'2nd Experiment - RM3 VS AX',
             3:'3rd Experiment - Reverted Index'
         }
         exFolder = switcher.get(exNum)

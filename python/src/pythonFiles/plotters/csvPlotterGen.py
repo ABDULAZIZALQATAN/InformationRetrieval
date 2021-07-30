@@ -53,6 +53,16 @@ def getChosenCoefficient(model):
     }
     return switcher.get(model[0].upper())
 
+def getTicksByAxis (axis):
+    switcher = {
+        'TrecMAP': '0.22 0.33 0.01',
+        'G0': '0.37 0.49 0.01'
+    }
+    ticks = switcher.get(axis,'')
+    ticks = getTicks(ticks)
+    return ticks
+
+
 def getTicks(ticks):
     ticks = ticks.split()
     return nm.arange(float(ticks[0]), float(ticks[1]), float(ticks[2]))
@@ -136,7 +146,8 @@ def getFile (measure , exNum):
 
 def sortDf(df , keys):
 
-    keys = 'corpus model beta fbDocs fbTerms'.split() if keys == 3 else keys.split()
+    keys = 'corpus model beta fbDocs fbTerms'  if keys == 3 else 'corpus model qryExpansion beta fbDocs fbTerms'
+    keys = keys.split()
     df.sort_values(by=keys, inplace=True)
     return df
 
@@ -173,8 +184,8 @@ def drawBaseLine(plotter , xAxis,yAxis,corpus,exnum):
     y = getDfBaselineValue(yAxis,corpus,exnum)
 
     plotter.plot(x, y,
-             # marker='$B$',
-             marker='o',
+             marker='$B$',
+             # marker='o',
              markersize=12,
              color='r'
              )

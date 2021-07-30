@@ -24,7 +24,7 @@ inModel = "BM25"  # @param ["BM25", "LMD", "PL2"]
 # inExp = "RM3"  # @param ["AX", "RM3"]
 ##PredefinedTicks = "No"  # @param ["Yes", "No"]
 inBase = "fbTerms" # @param ["fbDocs", "fbTerms",'beta']
-inXAxis = "TrecNDCG"  # @param ['RetrievalCoefficient', "fbTerms",'fbDocs',"TrecMAP", "TrecBref", "TrecP10", "CWLMAP","CWLRBP0.4","CWLRBP0.6" , "CWLRBP0.8"]
+inXAxis = "TrecMAP"  # @param ['RetrievalCoefficient', "fbTerms",'fbDocs',"TrecMAP", "TrecBref", "TrecP10", "CWLMAP","CWLRBP0.4","CWLRBP0.6" , "CWLRBP0.8"]
 inYAxis = "G0"  # @param ["G0", "G0.5", "TrecMAP", "TrecBref", "TrecP10", "CWLMAP","CWLRBP0.4","CWLRBP0.6" , "CWLRBP0.8"]
 
 # *** End Colab Form ***

@@ -1,10 +1,10 @@
+import src.pythonFiles.dedicatedProcess.XMLTopicsCreator as xml
+import src.classes.trec  as trec
+import src.classes.CWL as cwl
+import src.classes.clsRetrievabilityCalculator as rc
+import src.classes.bash as sh
+import src.classes.general as gen
 
-import python.src.pythonFiles.dedicatedProcess.XMLTopicsCreator as xml
-import python.src.classes.trec  as trec
-import python.src.classes.CWL as cwl
-import python.src.classes.clsRetrievabilityCalculator as rc
-import python.src.classes.bash as sh
-import python.src.classes.general as gen
 
 # File Types To Get with Function getFile
 [
@@ -306,14 +306,19 @@ def runExperiment(fbDocs, fbTerms, beta):
         resFile = getFile(resFile)
         # BiasRes/REV-WA-PL2-c1-beta0.6-docs10-terms05-b0.res
         coefficient =  gen.getModelCoefficient(GModel)
-        destFile = 'BiasRes/REV-%s-%s-%s%s-beta%0.2f-docs%02d-terms%02d.res' % \
+        # folder = r'D:\Backup 29-04-2021\3rd Experiment - Reverted Index\BiasRes/'
+        # folder = gen.getLinuxPath(folder)
+        folder = resFile.replace('FinalRun.res','BiasRes/')
+        destFile = folder + 'REV-%s-%s-%s%s-beta%0.2f-docs%02d-terms%02d.res' % \
                    (GCorpus[:2], GModel, coefficient, GModelCoefficient, beta, fbDocs, fbTerms)
 
-        destFile = getFile(destFile)
+        # destFile = getFile(destFile)
         gen.copyFile(resFile,destFile)
     else:
         resFile = '~/anserini/revertedIndex/' + resFile
     gainFile = gen.getGainFile(GCorpus[0])
+    # gainFile = gen.getLinuxPath(gainFile)
+    # gainFile = '~/anserini/Queries/standardQueries/WAPO/WAPO.qrel'
     eval = evaluateResults(resFile,gainFile)
     t5 = gen.printCurrentTime('End Experiment')
     print('Elapsed ' , t5 - t4)
@@ -321,72 +326,62 @@ def runExperiment(fbDocs, fbTerms, beta):
     t5 = None
     t1 = None
     eval.append(exTime)
+    # eval.append('Lost Time')
     print('Full Experiment Time ',exTime)
     outLine = getOutputLine(fbDocs, fbTerms, beta, eval)
     return outLine
 
 def initialize ():
-    global GBias, GScoreBy , GoutFile , GCorpus , GModel , GModelCoefficient , GlobalDf
+    global GBias, GScoreBy  , GCorpus , GModel , GModelCoefficient , GlobalDf
     # max sum
-    GScoreBy = 'max'
+    # GScoreBy = 'max' - Default Max Now
     GBias = True
-    GoutFile = False
-    GCorpus = gen.getCorpus('c')
+    # GoutFile = False
+    GCorpus = gen.getCorpus('w')
     # BM25 - PL2
-    GModel = 'PL2'
+    GModel = 'BM25'
     GModelCoefficient = '0.75' if GModel == 'BM25' else '1'
     GlobalDf = '{:02d}'.format(10)
 
     fillMainDictionaries()
-    docrng = range(10,35,5)
-    # docrng = [10]
-    termrng = range(30,55,5)
-    # termrng = docrng
-    # termrng = [30]
+    docrng = range(5,35,5)
+    # docrng = [15]
+    # termrng = range(30,55,5)
+    # termrng = range(5,55,5)
+    termrng = range(10,35,5)
     beta = [0.25]
     # [0 , 0.05 ,0.1, 0.15, 0.2 , 0.25 ,0.3 ,0.35,0.4,0.6]
     return [beta,docrng,termrng]
 
 def main():
-    global GBias , GoutFile
-    # terms = 5
-    # docs = 10
-    # pth = r'/mnt/c/Users/kkb19103/Desktop/My Files 07-08-2019/My Work/InformationRetrieval/python/src\\DocMaps\\WAPODocMap.txt'
+    global GBias
 
     [allBeta,docrng,termrng] = initialize()
-    lines = []
-    # rng = range(5,55,5)
+    # Append To Original File
+        # path = 'Ret' if GBias else 'Per'
+        # path = r'C:\Users\kkb19103\Desktop\My\ Files\ 07-08-2019\BiasMeasurementExperiments\3rd Experiment\ -\ Reverted Index\CSV\Ex3%s.csv' % path
+        # f = open(path, 'w', encoding='utf-8')
+    # Append To Test File
+    folder = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments\3rd Experiment - Reverted Index\CSV'
+    # path = r'\Ex3Ret.csv' if GBias else r'\Ex3Per.csv'
+    path = r'\test.csv'
+    path = folder + path
+    path = gen.getLinuxPath(path)
+    f = open(path, 'w')
+
     for beta in allBeta:
         for docs in docrng:
             for terms in termrng:
-                if (docs == 10 and terms == 30):
+                # print("Docs" , docs , "Terms" , terms )
+                if (terms == 10 and docs == 5):
                     continue
                 log = 'Start beta = %.2f , fbDocs = %s , fbTerms = %s ' % (beta, docs, terms)
                 print(log)
                 line = runExperiment(docs,terms,beta) + '\n'
-                print('--------------------------\n',line,'\n------------------------\n')
+                print('--------------------------\n',line.replace(' REV','REV',1) ,'------------------------\n')
                 print(log.replace('Start','End',1))
-                lines.append(line)
-
-    if (GoutFile):
-        path = 'Ret' if GBias else 'Per'
-        path = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments\3rd Experiment - Reverted Index\CSV\Ex3%s.csv' % path
-        f = open(path, 'a', encoding='utf-8')
-        # Print Header
-        # Per Header Line
-        for line in lines:
-
-            # f.write(line)
-            print(line)
-        f.close()
-    else:
-        path = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments\3rd Experiment - Reverted Index\CSV\test.csv'
-        path = gen.getLinuxPath(path)
-        f = open(path,'w')
-        for line in lines:
-            print(line[:len(line)-1])
-            f.write(line)
-        f.close()
+                f.write(line)
+    f.close()
 
 if __name__ == '__main__':
     main()

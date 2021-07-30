@@ -1,5 +1,4 @@
 import numpy as np
-import pythonFiles.paper2.AdditionalAnalysis.csvPlotterAdditionalAnalysis as analysis
 import pandas as pd
 import matplotlib.pyplot as plt
 import pythonFiles.plotters.csvPlotterGen as pltgen
@@ -39,7 +38,7 @@ def readFile (corpus,exp):
 
 def compute_percent(v):
   total_v = np.sum(v)
-  percent_v = np.divide(v * 100, total_v)
+  percent_v = np.divide(v , total_v)
 
   return percent_v
 
